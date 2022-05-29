@@ -11,4 +11,29 @@ body{
 #navbar {
     display: flex;
     background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    justify-content: center;
+}
+
+#navbar .navbar-container{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#navbar .navbar-container .logo{
+    height: 40px;
+    width: auto;
+
+}
+
+#navbar .navbar-container ul {
+    display: flex;
+    list-style: none;
+}
+
+#navbar .navbar-container ul li {
+    padding: 0 10px;
 }
