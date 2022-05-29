@@ -8,12 +8,15 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-
+/*navebar*/
 #navbar {
     display: flex;
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
     justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 #navbar .navbar-container{
@@ -41,4 +44,18 @@ body{
 
 #navbar .navbar-container ul li:nth-child(3) {
     border-right: 1px solid white;
+}
+
+/* Showcase */
+#showcase{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#showcase .showcase-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
