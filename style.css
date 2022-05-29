@@ -52,6 +52,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
+    background: url("/img/showcase.webp") center center/cover;
 }
 
 #showcase .showcase-container{
